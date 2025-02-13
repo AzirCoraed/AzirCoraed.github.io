@@ -1,0 +1,198 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "表情符号生成系统",
+      "title_en": "Emoji Generation System",
+      "category": "Deep Learning",
+      "role": "算法工程师",
+      "role_en": "Algorithm Engineer",
+      "period": "2024.05 - 2024.05",
+      "description": "运用生成对抗网络（GAN）开发表情符号自动生成模型，展示深度学习在图像生成领域的应用。负责数据预处理、GAN模型设计与优化，通过损失函数和评价指标监控模型性能。",
+      "description_en": "Developed an emoji generation model using Generative Adversarial Networks (GAN), showcasing deep learning applications in image generation. Responsible for data preprocessing, GAN model design and optimization.",
+      "achievements": [
+        "设计并实现了基于 DCGAN 的生成模型架构",
+        "开发数据增强流水线，提升生成图像质量",
+        "实现实时风格迁移功能，支持多种表情风格生成"
+      ],
+      "achievements_en": [
+        "Designed and implemented DCGAN-based generation architecture",
+        "Developed data augmentation pipeline to improve generation quality",
+        "Implemented real-time style transfer supporting multiple emoji styles"
+      ],
+      "image": "assets/img/portfolio/emoji_generation.png",
+      "github": "https://data-flair.training/blogs/create-emoji-with-deep-learning/",
+      "tech_stack": ["Python", "TensorFlow", "Pandas", "NumPy", "Matplotlib"]
+    },
+    {
+      "id": 2,
+      "title": "智能电影推荐系统",
+      "title_en": "Intelligent Movie Recommendation System",
+      "category": "Machine Learning",
+      "role": "机器学习工程师",
+      "role_en": "Machine Learning Engineer",
+      "period": "2024.06 - 2024.07",
+      "description": "基于协同过滤与内容推荐的混合推荐系统，通过分析用户偏好和电影特征，实现个性化电影推荐。使用Pandas和NumPy进行数据预处理，结合多种推荐算法提升系统性能。",
+      "description_en": "Hybrid recommendation system combining collaborative filtering and content-based methods. Analyzes user preferences and movie features to provide personalized recommendations.",
+      "achievements": [
+        "实现基于矩阵分解的协同过滤算法，显著提升推荐准确率",
+        "设计混合推荐策略，有效解决冷启动问题",
+        "构建评估框架，通过混淆矩阵等指标优化模型性能"
+      ],
+      "achievements_en": [
+        "Implemented matrix factorization-based collaborative filtering with improved accuracy",
+        "Designed hybrid recommendation strategy to solve cold start problem",
+        "Built evaluation framework using confusion matrix and other metrics"
+      ],
+      "image": "assets/img/portfolio/movie_recommendation.png",
+      "github": "https://data-flair.training/blogs/data-science-r-movie-recommendation-system/",
+      "tech_stack": ["Python", "R", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"]
+    },
+    {
+      "id": 3,
+      "title": "面容情感分析系统",
+      "title_en": "Facial Emotion Recognition System",
+      "category": "Deep Learning",
+      "role": "深度学习工程师",
+      "role_en": "Deep Learning Engineer",
+      "period": "2024.03 - 2024.04",
+      "description": "基于卷积神经网络的面部表情识别系统，使用FER2013数据集训练。通过数据增强和模型优化，提升情感识别准确率，实现实时表情分析功能。",
+      "description_en": "CNN-based facial expression recognition system trained on FER2013 dataset. Enhanced emotion recognition accuracy through data augmentation and model optimization.",
+      "achievements": [
+        "设计基于ResNet的改进网络结构，模型准确率达到74%",
+        "实现数据增强和正则化策略，提升模型泛化能力",
+        "开发实时表情识别演示系统，支持摄像头输入"
+      ],
+      "achievements_en": [
+        "Designed improved ResNet-based architecture achieving 74% accuracy",
+        "Implemented data augmentation and regularization for better generalization",
+        "Developed real-time emotion recognition demo with camera support"
+      ],
+      "image": "assets/img/portfolio/emotion_recognition.png",
+      "github": "https://www.kaggle.com/datasets/msambare/fer2013/code",
+      "tech_stack": ["Python", "TensorFlow", "OpenCV", "NumPy", "Scikit-learn"]
+    },
+    {
+      "id": 4,
+      "title": "文本情感分析系统",
+      "title_en": "Text Sentiment Analysis System",
+      "category": "Machine Learning",
+      "role": "NLP工程师",
+      "role_en": "NLP Engineer",
+      "period": "2024.01 - 2024.02",
+      "description": "基于机器学习的文本情感分析系统，用于分析用户反馈和社交媒体评论。使用NLTK进行文本预处理，实现基于SVM和朴素贝叶斯的情感分类。",
+      "description_en": "Machine learning-based text sentiment analysis system for analyzing user feedback and social media comments. Utilizing NLTK for text preprocessing and SVM/Naive Bayes for classification.",
+      "achievements": [
+        "实现文本预处理流水线，包含分词、停用词处理和词干提取",
+        "优化特征提取方法，提升分类准确率",
+        "开发可视化界面展示分析结果和情感趋势"
+      ],
+      "achievements_en": [
+        "Implemented text preprocessing pipeline including tokenization and stemming",
+        "Optimized feature extraction methods to improve classification accuracy",
+        "Developed visualization interface for analysis results and sentiment trends"
+      ],
+      "image": "assets/img/portfolio/sentiment_analysis.jpg",
+      "github": "https://data-flair.training/blogs/data-science-r-sentiment-analysis-project/",
+      "tech_stack": ["Python", "R", "NLTK", "Scikit-learn", "Matplotlib"]
+    },
+    {
+      "id": 5,
+      "title": "客户细分分析系统",
+      "title_en": "Customer Segmentation System",
+      "category": "Data Analysis",
+      "role": "数据分析师",
+      "role_en": "Data Analyst",
+      "period": "2023.11 - 2023.12",
+      "description": "基于无监督学习的客户细分系统，帮助企业深入了解客户特征。使用K-means聚类算法进行客户分群，通过可视化分析识别高价值客户群体。",
+      "description_en": "Unsupervised learning-based customer segmentation system helping businesses understand customer characteristics. Using K-means clustering and visualization analysis.",
+      "achievements": [
+        "实现自动化的客户数据预处理和特征工程流程",
+        "优化聚类算法参数，提高客户分群准确性",
+        "开发交互式数据可视化dashboard展示分析结果"
+      ],
+      "achievements_en": [
+        "Implemented automated customer data preprocessing and feature engineering",
+        "Optimized clustering parameters for improved segmentation accuracy",
+        "Developed interactive visualization dashboard for analysis results"
+      ],
+      "image": "assets/img/portfolio/customer_segmentation.jpg",
+      "github": "https://data-flair.training/blogs/r-data-science-project-customer-segmentation/",
+      "tech_stack": ["Python", "R", "Scikit-learn", "Matplotlib", "Seaborn"]
+    },
+    {
+      "id": 6,
+      "title": "智能贷款预测系统",
+      "title_en": "Intelligent Loan Prediction System",
+      "category": "Machine Learning",
+      "role": "机器学习工程师",
+      "role_en": "Machine Learning Engineer",
+      "period": "2023.11 - 2023.12",
+      "description": "基于机器学习的贷款违约预测系统，帮助金融机构优化贷款审批流程。使用多种分类算法预测违约风险，通过可视化分析提供决策支持。",
+      "description_en": "Machine learning-based loan default prediction system optimizing loan approval process. Using multiple classification algorithms and visualization analysis.",
+      "achievements": [
+        "构建了准确率达96.43%的违约预测模型",
+        "实现特征重要性分析，提供风险因素解释",
+        "开发风险评分卡系统，支持自动化信用评估"
+      ],
+      "achievements_en": [
+        "Built default prediction model achieving 96.43% accuracy",
+        "Implemented feature importance analysis for risk factor interpretation",
+        "Developed risk scorecard system supporting automated credit assessment"
+      ],
+      "image": "assets/img/portfolio/loan_prediction.jpg",
+      "github": "https://www.kaggle.com/code/coraedazir/loan-eligibility-prediction-model",
+      "tech_stack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Seaborn"]
+    },
+    {
+      "id": 7,
+      "title": "金融市场预测系统",
+      "title_en": "Financial Market Prediction System",
+      "category": "Data Analysis",
+      "role": "量化分析师",
+      "role_en": "Quantitative Analyst",
+      "period": "2023.07 - 2023.08",
+      "description": "基于时间序列分析和机器学习的股票市场预测系统。通过特征工程和模型优化，提供可靠的市场趋势预测，辅助投资决策。",
+      "description_en": "Stock market prediction system based on time series analysis and machine learning. Providing reliable market trend predictions through feature engineering and model optimization.",
+      "achievements": [
+        "开发自动化数据采集和预处理流水线",
+        "实现多维度技术指标计算和特征提取",
+        "构建集成学习模型提升预测准确率"
+      ],
+      "achievements_en": [
+        "Developed automated data collection and preprocessing pipeline",
+        "Implemented multi-dimensional technical indicator calculation",
+        "Built ensemble learning model to improve prediction accuracy"
+      ],
+      "image": "assets/img/portfolio/stock_prediction.jpg",
+      "github": "https://www.kaggle.com/competitions/two-sigma-financial-news",
+      "tech_stack": ["Python", "XGBoost", "Pandas", "NumPy", "Matplotlib"]
+    },
+    {
+      "id": 8,
+      "title": "基于SRCNN的图像增强系统",
+      "title_en": "SRCNN-based Image Enhancement System",
+      "category": "Deep Learning",
+      "role": "深度学习工程师",
+      "role_en": "Deep Learning Engineer",
+      "period": "2024.07 - 2024.08",
+      "description": "基于超分辨率卷积神经网络(SRCNN)的图像增强系统，实现低分辨率图像的高质量重建。通过改进网络结构和训练策略，显著提升重建图像的清晰度和细节还原度。项目参考了天池实验室的超分辨率基础理论，并在此基础上进行了创新和改进。",
+      "description_en": "Image enhancement system based on Super-Resolution Convolutional Neural Network (SRCNN), achieving high-quality reconstruction of low-resolution images. Enhanced image clarity and detail restoration through improved network architecture and training strategies, building upon the super-resolution fundamentals from Tianchi Lab.",
+      "achievements": [
+        "设计并实现基于残差学习的改进SRCNN模型，PSNR提升2.1dB",
+        "开发多尺度特征融合模块，提升细节重建效果",
+        "实现基于Pytorch的高性能训练框架，训练速度提升40%",
+        "开发Web演示系统，支持实时图像增强处理"
+      ],
+      "achievements_en": [
+        "Designed and implemented residual learning-based SRCNN model, improving PSNR by 2.1dB",
+        "Developed multi-scale feature fusion module for better detail reconstruction",
+        "Implemented high-performance training framework based on PyTorch, improving training speed by 40%",
+        "Developed web demo system supporting real-time image enhancement"
+      ],
+      "image": "assets/img/portfolio/srcnn_enhancement.png",
+      "github": "https://tianchi.aliyun.com/notebook/216689",
+      "tech_stack": ["Python", "PyTorch", "OpenCV", "Flask", "Vue.js", "Docker"]
+    }
+  ]
+} 

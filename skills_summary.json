@@ -1,0 +1,308 @@
+[
+    {
+        "Skill Name":"Python",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.8
+    },
+    {
+        "Skill Name":"SQL",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"R",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"C\/C++",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Matlab",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Java",
+        "Skill Field":"Programming Languages",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"Pandas",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.7
+    },
+    {
+        "Skill Name":"Numpy",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.8
+    },
+    {
+        "Skill Name":"Scipy",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Matplotlib",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Seaborn",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Scikit-learn",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Open-CV",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"SPSS",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Stata",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Excel",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"PowerBI",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Tableau",
+        "Skill Field":"Data Processing and Analysis",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Hadoop",
+        "Skill Field":"Big Data Technology Stack",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Spark",
+        "Skill Field":"Big Data Technology Stack",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"Oracle",
+        "Skill Field":"Big Data Technology Stack",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"MySQL",
+        "Skill Field":"Big Data Technology Stack",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"PyTorch",
+        "Skill Field":"Machine Learning and Deep Learning",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"TensorFlow",
+        "Skill Field":"Machine Learning and Deep Learning",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"NLP",
+        "Skill Field":"Machine Learning and Deep Learning",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"Super-Resolution",
+        "Skill Field":"Machine Learning and Deep Learning",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.7
+    },
+    {
+        "Skill Name":"CNN",
+        "Skill Field":"Machine Learning and Deep Learning",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Docker",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Git\/GitHub",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"Linux\/Shell(Ubuntu\/CentOS)",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Jupyter Notebook",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.7
+    },
+    {
+        "Skill Name":"VsCode",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.8
+    },
+    {
+        "Skill Name":"Pycharm",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Cursor",
+        "Skill Field":"Development and Collaboration Tools",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.8
+    },
+    {
+        "Skill Name":"OpenAI",
+        "Skill Field":"AI Technologies",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"DeepSeek",
+        "Skill Field":"AI Technologies",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"SparkDesk",
+        "Skill Field":"AI Technologies",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"StableDiffusion(WebUI\/ComfyUI)",
+        "Skill Field":"AI Technologies",
+        "Learning Duration (years)":0.5,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"RPA",
+        "Skill Field":"Others",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"CVAT\/Labelme",
+        "Skill Field":"Others",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Data Structure",
+        "Skill Field":"Computer Fundamentals",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Computer Organization and Architecture",
+        "Skill Field":"Computer Fundamentals",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.2
+    },
+    {
+        "Skill Name":"Operating System",
+        "Skill Field":"Computer Fundamentals",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.4
+    },
+    {
+        "Skill Name":"Computer Network",
+        "Skill Field":"Computer Fundamentals",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.3
+    },
+    {
+        "Skill Name":"Data Cleaning",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.7
+    },
+    {
+        "Skill Name":"Data Mining",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":3.0,
+        "Proficiency Score(0~1)":0.5
+    },
+    {
+        "Skill Name":"Basic Machine Learning Algorithms",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Advanced Mathematics",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":4.0,
+        "Proficiency Score(0~1)":0.9
+    },
+    {
+        "Skill Name":"Probability and Statistics",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":2.0,
+        "Proficiency Score(0~1)":0.8
+    },
+    {
+        "Skill Name":"Linear Algebra",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.6
+    },
+    {
+        "Skill Name":"Discrete Mathematics",
+        "Skill Field":"Professional foundation",
+        "Learning Duration (years)":1.0,
+        "Proficiency Score(0~1)":0.5
+    }
+]

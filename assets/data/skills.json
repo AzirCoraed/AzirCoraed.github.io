@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "name": "Programming",
+      "name_cn": "编程语言",
+      "skills": [
+        {
+          "name": "Python",
+          "level": 90,
+          "description": "主要编程语言，熟练使用各类数据科学和机器学习库",
+          "description_en": "Primary programming language, proficient in data science and ML libraries"
+        },
+        {
+          "name": "SQL",
+          "level": 85,
+          "description": "数据库查询和优化",
+          "description_en": "Database querying and optimization"
+        }
+      ]
+    },
+    {
+      "id": "ml-dl",
+      "name": "Machine Learning & Deep Learning",
+      "name_cn": "机器学习与深度学习",
+      "skills": [
+        {
+          "name": "PyTorch",
+          "level": 85,
+          "description": "深度学习模型开发和部署",
+          "description_en": "Deep learning model development and deployment"
+        },
+        {
+          "name": "Scikit-learn",
+          "level": 90,
+          "description": "机器学习算法实现和应用",
+          "description_en": "Machine learning algorithm implementation and application"
+        }
+      ]
+    }
+  ]
+} 
