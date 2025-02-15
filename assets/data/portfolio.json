@@ -2,6 +2,32 @@
   "projects": [
     {
       "id": 1,
+      "title": "基于SRCNN的图像增强技术研究",
+      "title_en": "Deep Optimization and Application Expansion of Image Enhancement Technology Based on SRCNN",
+      "category": "Deep Learning",
+      "role": "图像算法研究与开发者",
+      "role_en": "Image Algorithm Researcher & Developer",
+      "period": "2024.07 - 2024.08",
+      "description": "本项目深入研究超分辨率卷积神经网络(SRCNN)在图像增强领域的应用。通过系统性实验，对比SRCNN与传统插值算法在图像质量评估指标上的表现差异。创新性地采用LANCZOS插值法替代传统双三次插值进行图像预处理，显著提升了重建质量。项目不仅建立了标准化的实验流程，确保了实验结果的可靠性，同时也探索了SRCNN在医疗影像、遥感图像等领域的实际应用价值。通过深入的技术原理剖析和创新性优化，为SRCNN技术的工程实践提供了扎实的理论基础和实施方案。",
+      "description_en": "This project delves into the application of Super-Resolution Convolutional Neural Network (SRCNN) in image enhancement. Through systematic experiments, we compared SRCNN with traditional interpolation algorithms across various image quality metrics. Innovatively implemented Lanczos interpolation for image preprocessing, significantly improving reconstruction quality. The project established standardized experimental procedures and explored SRCNN's practical applications in medical imaging and remote sensing. Through in-depth technical analysis and innovative optimization, we provided solid theoretical foundation and implementation strategies for SRCNN technology.",
+      "achievements": [
+        "在DIV2K数据集上实现突破性成果：SRCNN平均PSNR达30.05dB，SSIM达0.9430，较传统双三次插值提升1.64dB和0.0706，验证了模型在图像质量提升方面的卓越性能",
+        "创新性引入LANCZOS插值法进行图像预处理，显著改善边缘和纹理信息保留，有效抑制了插值过程中的模糊和振铃伪影，提升了重建图像的视觉质量",
+        "优化模型训练策略：采用正交初始化、Adam优化器和动态学习率调整，实现了模型在不同规模数据集上的稳定训练和高效收敛",
+        "通过深入的可视化分析，清晰展示SRCNN在特征提取、非线性映射和重建各阶段的工作机制，为模型优化提供了直观依据"
+      ],
+      "achievements_en": [
+        "Achieved breakthrough results on DIV2K dataset: SRCNN reached 30.05dB PSNR and 0.9430 SSIM, surpassing traditional bicubic interpolation by 1.64dB and 0.0706 respectively",
+        "Innovatively introduced Lanczos interpolation for preprocessing, significantly improving edge and texture preservation while reducing interpolation artifacts",
+        "Optimized training strategy with orthogonal initialization, Adam optimizer and dynamic learning rate adjustment, achieving stable training across various dataset scales",
+        "Conducted comprehensive visualization analysis of SRCNN's working mechanism across feature extraction, non-linear mapping and reconstruction stages"
+      ],
+      "image": "assets/img/portfolio/srcnn_enhancement.png",
+      "github": "https://tianchi.aliyun.com/notebook/216689",
+      "tech_stack": ["Python", "PyTorch", "NumPy", "Matplotlib", "PIL", "OpenCV", "Scikit-image"]
+    },
+    {
+      "id": 2,
       "title": "表情符号生成系统",
       "title_en": "Emoji Generation System",
       "category": "Deep Learning",
@@ -25,7 +51,7 @@
       "tech_stack": ["Python", "TensorFlow", "Pandas", "NumPy", "Matplotlib"]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "智能电影推荐系统",
       "title_en": "Intelligent Movie Recommendation System",
       "category": "Machine Learning",
@@ -49,7 +75,7 @@
       "tech_stack": ["Python", "R", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "面容情感分析系统",
       "title_en": "Facial Emotion Recognition System",
       "category": "Deep Learning",
@@ -73,7 +99,7 @@
       "tech_stack": ["Python", "TensorFlow", "OpenCV", "NumPy", "Scikit-learn"]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "文本情感分析系统",
       "title_en": "Text Sentiment Analysis System",
       "category": "Machine Learning",
@@ -97,7 +123,7 @@
       "tech_stack": ["Python", "R", "NLTK", "Scikit-learn", "Matplotlib"]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "客户细分分析系统",
       "title_en": "Customer Segmentation System",
       "category": "Data Analysis",
@@ -121,7 +147,7 @@
       "tech_stack": ["Python", "R", "Scikit-learn", "Matplotlib", "Seaborn"]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "智能贷款预测系统",
       "title_en": "Intelligent Loan Prediction System",
       "category": "Machine Learning",
@@ -145,7 +171,7 @@
       "tech_stack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Seaborn"]
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "金融市场预测系统",
       "title_en": "Financial Market Prediction System",
       "category": "Data Analysis",
@@ -167,32 +193,6 @@
       "image": "assets/img/portfolio/stock_prediction.jpg",
       "github": "https://www.kaggle.com/competitions/two-sigma-financial-news",
       "tech_stack": ["Python", "XGBoost", "Pandas", "NumPy", "Matplotlib"]
-    },
-    {
-      "id": 8,
-      "title": "基于SRCNN的图像增强系统",
-      "title_en": "SRCNN-based Image Enhancement System",
-      "category": "Deep Learning",
-      "role": "深度学习工程师",
-      "role_en": "Deep Learning Engineer",
-      "period": "2024.07 - 2024.08",
-      "description": "基于超分辨率卷积神经网络(SRCNN)的图像增强系统，实现低分辨率图像的高质量重建。通过改进网络结构和训练策略，显著提升重建图像的清晰度和细节还原度。项目参考了天池实验室的超分辨率基础理论，并在此基础上进行了创新和改进。",
-      "description_en": "Image enhancement system based on Super-Resolution Convolutional Neural Network (SRCNN), achieving high-quality reconstruction of low-resolution images. Enhanced image clarity and detail restoration through improved network architecture and training strategies, building upon the super-resolution fundamentals from Tianchi Lab.",
-      "achievements": [
-        "设计并实现基于残差学习的改进SRCNN模型，PSNR提升2.1dB",
-        "开发多尺度特征融合模块，提升细节重建效果",
-        "实现基于Pytorch的高性能训练框架，训练速度提升40%",
-        "开发Web演示系统，支持实时图像增强处理"
-      ],
-      "achievements_en": [
-        "Designed and implemented residual learning-based SRCNN model, improving PSNR by 2.1dB",
-        "Developed multi-scale feature fusion module for better detail reconstruction",
-        "Implemented high-performance training framework based on PyTorch, improving training speed by 40%",
-        "Developed web demo system supporting real-time image enhancement"
-      ],
-      "image": "assets/img/portfolio/srcnn_enhancement.png",
-      "github": "https://tianchi.aliyun.com/notebook/216689",
-      "tech_stack": ["Python", "PyTorch", "OpenCV", "Flask", "Vue.js", "Docker"]
     }
   ]
 } 
