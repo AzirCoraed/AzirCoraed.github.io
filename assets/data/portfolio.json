@@ -81,23 +81,23 @@
       "category": "Deep Learning",
       "role": "深度学习工程师",
       "role_en": "Deep Learning Engineer",
-      "period": "2024.03 - 2024.04",
-      "description": "基于卷积神经网络的面部表情识别系统，使用FER2013数据集训练。通过数据增强和模型优化，提升情感识别准确率，实现实时表情分析功能。",
-      "description_en": "CNN-based facial expression recognition system trained on FER2013 dataset. Enhanced emotion recognition accuracy through data augmentation and model optimization.",
+      "period": "根据实际项目时间填写",
+      "description": "基于卷积神经网络（CNN）搭建面部表情识别系统，以FER2013数据集为训练基础，其中训练集包含22968个示例，公共测试集包含1432个示例，图像均为48x48像素的人脸灰度图。通过数据生成器动态加载数据，并运用旋转、移位、翻转以及像素值归一化等数据增强技术，扩充数据多样性、提升模型泛化能力。精心构建CNN模型，多次试验不同卷积层、滤波器及全连接层配置，结合Dropout和批量归一化技术防止过拟合。使用分类交叉熵损失函数、Adam优化器进行模型编译与训练，最终实现高精度的面部表情实时分析功能。",
+      "description_en": "A facial expression recognition system was built based on Convolutional Neural Networks (CNNs), using the FER2013 dataset for training. The training set contains 22,968 examples, and the public test set contains 1,432 examples. All images are 48x48 pixel grayscale face images. Data was dynamically loaded through data generators, and data augmentation techniques such as rotation, shifting, flipping, and pixel value normalization were applied to expand data diversity and enhance the model's generalization ability. A CNN model was meticulously constructed, with multiple trials of different configurations of convolutional layers, filters, and fully connected layers. Dropout and batch normalization techniques were combined to prevent overfitting. The model was compiled and trained using the categorical cross-entropy loss function and the Adam optimizer, ultimately achieving high-precision real-time facial expression analysis capabilities.",
       "achievements": [
-        "设计基于ResNet的改进网络结构，模型准确率达到74%",
-        "实现数据增强和正则化策略，提升模型泛化能力",
-        "开发实时表情识别演示系统，支持摄像头输入"
+          "经过50轮训练，模型在验证集上的准确率最高达到65.78%，有效实现7类面部表情（愤怒、厌恶、恐惧、快乐、悲伤、惊讶、中立）的准确分类",
+          "成功运用数据增强技术，包括±10%的随机宽度和高度偏移、水平翻转以及像素值归一化到[0, 1]，提升模型对不同表情数据的适应性",
+          "利用OpenCV的Haar级联分类器实现实时人脸检测，并结合训练好的模型完成实时表情预测，开发出可支持摄像头输入的实时演示系统"
       ],
       "achievements_en": [
-        "Designed improved ResNet-based architecture achieving 74% accuracy",
-        "Implemented data augmentation and regularization for better generalization",
-        "Developed real-time emotion recognition demo with camera support"
+          "After 50 rounds of training, the model achieved a maximum accuracy of 65.78% on the validation set, effectively enabling accurate classification of 7 types of facial expressions (angry, disgusted, fearful, happy, sad, surprised, neutral).",
+          "Successfully applied data augmentation techniques, including random width and height shifts of ±10%, horizontal flipping, and pixel value normalization to [0, 1], enhancing the model's adaptability to different expression data.",
+          "Utilized OpenCV's Haar cascade classifier for real-time face detection and combined it with the trained model for real-time emotion prediction, developing a real-time demonstration system that supports camera input."
       ],
       "image": "assets/img/portfolio/emotion_recognition.png",
-      "github": "https://www.kaggle.com/datasets/msambare/fer2013/code",
-      "tech_stack": ["Python", "TensorFlow", "OpenCV", "NumPy", "Scikit-learn"]
-    },
+      "github": "https://github.com/AzirCoraed/Emoji_creator",
+      "tech_stack": ["Python", "TensorFlow", "OpenCV", "NumPy"]
+    } ,
     {
       "id": 5,
       "title": "文本情感分析系统",
