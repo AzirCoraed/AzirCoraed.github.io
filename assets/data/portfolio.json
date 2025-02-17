@@ -33,7 +33,7 @@
       "category": "Deep Learning",
       "role": "深度学习工程师",
       "role_en": "Deep Learning Engineer",
-      "period": "根据实际项目时间填写",
+      "period": "2024.03 - 2024.04",
       "description": "基于卷积神经网络（CNN）搭建面部表情识别系统，以FER2013数据集为训练基础，其中训练集包含22968个示例，公共测试集包含1432个示例，图像均为48x48像素的人脸灰度图。通过数据生成器动态加载数据，并运用旋转、移位、翻转以及像素值归一化等数据增强技术，扩充数据多样性、提升模型泛化能力。精心构建CNN模型，多次试验不同卷积层、滤波器及全连接层配置，结合Dropout和批量归一化技术防止过拟合。使用分类交叉熵损失函数、Adam优化器进行模型编译与训练，最终实现高精度的面部表情实时分析功能。",
       "description_en": "A facial expression recognition system was built based on Convolutional Neural Networks (CNNs), using the FER2013 dataset for training. The training set contains 22,968 examples, and the public test set contains 1,432 examples. All images are 48x48 pixel grayscale face images. Data was dynamically loaded through data generators, and data augmentation techniques such as rotation, shifting, flipping, and pixel value normalization were applied to expand data diversity and enhance the model's generalization ability. A CNN model was meticulously constructed, with multiple trials of different configurations of convolutional layers, filters, and fully connected layers. Dropout and batch normalization techniques were combined to prevent overfitting. The model was compiled and trained using the categorical cross-entropy loss function and the Adam optimizer, ultimately achieving high-precision real-time facial expression analysis capabilities.",
       "achievements": [
