@@ -1,0 +1,126 @@
+/* 主题相关的变量和样式 */
+:root {
+    /* 浅色主题 */
+    --first-color: hsl(207, 65%, 45%);  /* 主题蓝色 */
+    --first-color-second: hsl(207, 65%, 45%);
+    --first-color-alt: hsl(207, 55%, 40%);
+    --first-color-lighter: hsl(207, 65%, 90%);
+    --first-color-dark: hsl(207, 65%, 35%);
+    
+    /* 文本颜色 */
+    --title-color: hsl(207, 12%, 15%);
+    --text-color: hsl(207, 12%, 35%);
+    --text-color-light: hsl(207, 12%, 65%);
+    
+    /* 背景颜色 */
+    --body-color: hsl(207, 25%, 97%);
+    --container-color: #fff;
+    --border-color: hsl(207, 12%, 85%);
+    --input-color: hsl(207, 25%, 96%);
+    
+    /* 滚动条颜色 */
+    --scroll-bar-color: hsl(207, 12%, 90%);
+    --scroll-thumb-color: hsl(207, 12%, 80%);
+}
+
+/* 深色主题变量 */
+[data-theme="dark"] {
+    /* 基础颜色 - 使用更柔和的深蓝色调 */
+    --first-color: hsl(207, 65%, 60%);
+    --first-color-second: hsl(207, 65%, 60%);
+    --first-color-alt: hsl(207, 55%, 55%);
+    --first-color-lighter: hsl(207, 65%, 25%);
+    --first-color-dark: hsl(207, 65%, 50%);
+    
+    /* 文本颜色 - 提高可读性 */
+    --title-color: hsl(207, 12%, 95%);
+    --text-color: hsl(207, 12%, 80%);
+    --text-color-light: hsl(207, 12%, 70%);
+    
+    /* 背景颜色 - 使用更柔和的深色 */
+    --body-color: hsl(207, 24%, 12%);
+    --container-color: hsl(207, 24%, 15%);
+    --border-color: hsl(207, 24%, 20%);
+    --input-color: hsl(207, 24%, 18%);
+    
+    /* 滚动条颜色 */
+    --scroll-bar-color: hsl(207, 24%, 20%);
+    --scroll-thumb-color: hsl(207, 24%, 30%);
+}
+
+/* 主题切换按钮样式 */
+.theme-toggle {
+    position: relative;
+    width: 48px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: var(--container-color);
+    border: 2px solid var(--first-color-alt);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle i {
+    font-size: 14px;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.theme-toggle::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .theme-toggle::after {
+    transform: translateX(24px);
+}
+
+/* 平滑过渡效果 */
+body {
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+* {
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease,
+                background-color 0.3s ease;
+}
+
+/* 确保深色模式下的阴影效果 */
+[data-theme="dark"] .nav,
+[data-theme="dark"] .portfolio__content,
+[data-theme="dark"] .skills__content {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 深色模式下的特殊处理 */
+[data-theme="dark"] .home__social-icon,
+[data-theme="dark"] .button,
+[data-theme="dark"] .nav__logo,
+[data-theme="dark"] .nav__toggle,
+[data-theme="dark"] .nav__close {
+    color: var(--title-color);
+}
+
+[data-theme="dark"] .button {
+    background-color: var(--first-color);
+}
+
+[data-theme="dark"] .button:hover {
+    background-color: var(--first-color-alt);
+}
+
+[data-theme="dark"] .qualification__line {
+    background-color: var(--first-color-alt);
+} 

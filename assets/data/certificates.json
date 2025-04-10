@@ -1,0 +1,84 @@
+[
+  {
+    "id": "certificate5",
+    "name": {
+      "en": "Third Prize in University Math Contest (School Level)",
+      "cn": "全国大学生数学竞赛校赛三等奖"
+    },
+    "description": {
+      "en": "2021",
+      "cn": "2021 年"
+    },
+    "category": "academic",
+    "image": "assets/img/certificates/certificate5.jpg"
+  },
+  {
+    "id": "certificate6",
+    "name": {
+      "en": "Third Prize in Math Modeling Contest (Guangdong Province)",
+      "cn": "全国大学生数学建模竞赛广东省分赛三等奖"
+    },
+    "description": {
+      "en": "2022",
+      "cn": "2022 年"
+    },
+    "category": "academic",
+    "image": "assets/img/certificates/certificate6.jpg"
+  },
+  {
+    "id": "certificate7",
+    "name": {
+      "en": "Second Prize in University Math Contest (School Level)",
+      "cn": "全国大学生数学竞赛校赛二等奖"
+    },
+    "description": {
+      "en": "2023",
+      "cn": "2023 年"
+    },
+    "category": "academic",
+    "image": "assets/img/certificates/certificate7.jpg"
+  },
+  {
+    "id": "certificate8",
+    "name": {
+      "en": "Third Prize in Math Modeling Contest (Guangdong Province)",
+      "cn": "全国大学生数学建模竞赛广东省分赛三等奖"
+    },
+    "description": {
+      "en": "2023",
+      "cn": "2023 年"
+    },
+    "category": "academic",
+    "image": "assets/img/certificates/certificate8.jpg"
+  },
+  {
+    "id": "certificate9",
+    "name": {
+      "en": "HCIA - Big Data",
+      "cn": "华为认证HCIA - 大数据"
+    },
+    "description": {
+      "en": "Huawei Certified ICT Associate - Big Data",
+      "cn": "华为认证ICT助理工程师 - 大数据"
+    },
+    "category": "professional",
+    "image": "assets/img/certificates/certificate9.jpg",
+    "validity": "Valid Through Jun 29, 2026",
+    "certificateNumber": "010101801193808862372006397"
+  },
+  {
+    "id": "certificate10",
+    "name": {
+      "en": "HCIP - Big Data Developer",
+      "cn": "华为认证HCIP - 大数据开发"
+    },
+    "description": {
+      "en": "Huawei Certified ICT Professional - Big Data Developer",
+      "cn": "华为认证ICT专业工程师 - 大数据开发"
+    },
+    "category": "professional",
+    "image": "assets/img/certificates/certificate10.jpg",
+    "validity": "Valid Through Jun 29, 2026",
+    "certificateNumber": "010201801193809239252128564"
+  }
+]

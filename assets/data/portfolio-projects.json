@@ -1,0 +1,17 @@
+[
+  {
+    "id": "project1",
+    "title": {
+      "en": "Machine Learning Model",
+      "cn": "机器学习模型"
+    },
+    "description": {
+      "en": "A predictive model for customer churn analysis.",
+      "cn": "一个用于客户流失分析的预测模型。"
+    },
+    "category": "machine-learning",
+    "image": "assets/portfolio/project1.jpg",
+    "link": "https://github.com/AzirCoraed/project1"
+  }
+  
+]

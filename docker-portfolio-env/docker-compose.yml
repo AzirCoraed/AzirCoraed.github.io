@@ -1,0 +1,8 @@
+# 使用官方的Nginx镜像作为基础镜像
+FROM nginx:alpine
+
+# 将当前目录下的所有文件复制到Nginx的默认目录
+COPY . /usr/share/nginx/html
+
+# 暴露80端口
+EXPOSE 80

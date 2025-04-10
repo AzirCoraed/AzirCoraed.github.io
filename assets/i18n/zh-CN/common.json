@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "skills": "技能",
+    "portfolio": "项目经历",
+    "contact": "联系我"
+  },
+  "home": {
+    "title": "你好，我是 Coraed",
+    "subtitle": "数据科学家 & 大数据工程师",
+    "description": "专注于机器学习和大数据分析的数据科学研究者。擅长运用各类数据技术解决实际问题。"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "我的介绍",
+    "description": "数据科学与大数据技术专业毕业生，具备扎实的统计分析和机器学习基础。熟练使用Python、SQL等工具开发数据解决方案。",
+    "info": {
+      "experience": "年工作经验",
+      "projects": "个完成项目",
+      "internships": "次实习经历"
+    }
+  },
+  "portfolio": {
+    "title": "项目经历",
+    "subtitle": "最近的项目",
+    "view": "查看项目",
+    "filters": {
+      "all": "全部项目",
+      "deep-learning": "深度学习",
+      "machine-learning": "机器学习",
+      "data-analysis": "数据分析"
+    },
+    "labels": {
+      "role": "担任角色",
+      "period": "项目周期",
+      "tech_stack": "技术栈",
+      "achievements": "项目成果",
+      "view_details": "查看详情",
+      "project_info": "项目信息",
+      "description": "项目描述",
+      "github": "项目源码",
+      "demo": "在线演示",
+      "duration": "持续时间",
+      "status": "项目状态"
+    },
+    "categories": {
+      "Deep Learning": "深度学习",
+      "Machine Learning": "机器学习",
+      "Data Analysis": "数据分析"
+    },
+    "roles": {
+      "Algorithm Engineer": "算法工程师",
+      "Deep Learning Engineer": "深度学习工程师",
+      "Machine Learning Engineer": "机器学习工程师",
+      "NLP Engineer": "自然语言处理工程师",
+      "Data Analyst": "数据分析师",
+      "Quantitative Analyst": "量化分析师",
+      "Full Stack Engineer": "全栈工程师"
+    },
+    "status": {
+      "completed": "已完成",
+      "in_progress": "进行中",
+      "planning": "规划中"
+    }
+  },
+  "qualification": {
+    "title": "教育背景",
+    "subtitle": "我的个人经历",
+    "education": "教育经历",
+    "work": "工作经历"
+  },
+  "qualification__title": "教育背景",
+  "qualification__subtitle": "我的个人经历",
+  "about__info-name1": "年工作经验",
+  "about__info-name2": "个完成项目",
+  "about__info-name3": "次实习经历"
+} 
