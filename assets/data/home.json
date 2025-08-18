@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": {
+      "en": "Hi, I'm Coraed",
+      "zh-CN": "你好，我是 Coraed"
+    },
+    "subtitle": {
+      "en": "Data Scientist & Big Data Engineer",
+      "zh-CN": "数据科学家 & 大数据工程师"
+    },
+    "description": {
+      "en": "A data scientist focused on machine learning and big data analytics. Skilled in applying data technologies to solve real-world problems.",
+      "zh-CN": "专注于机器学习和大数据分析的数据科学研究者。擅长运用数据技术解决实际问题。"
+    },
+    "cta": {
+      "en": "Contact Me",
+      "zh-CN": "联系我"
+    },
+    "avatar": "assets/img/cat.png"
+  }
+}
+
+

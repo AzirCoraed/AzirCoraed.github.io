@@ -1,0 +1,26 @@
+{
+  "bio": {
+    "en": "Graduate in Data Science and Big Data Technology with strong foundations in statistics and ML. Proficient with Python, SQL and data tooling.",
+    "zh-CN": "数据科学与大数据技术专业毕业生，具备扎实的统计分析和机器学习基础。熟练使用 Python、SQL 等工具开发数据解决方案。"
+  },
+  "counters": [
+    { "key": "experience", "value": 1, "suffix": "+" },
+    { "key": "projects", "value": 8, "suffix": "+" },
+    { "key": "internships", "value": 2, "suffix": "+" }
+  ],
+  "courses": [
+    { "en": "Data Structures and Algorithms", "zh-CN": "数据结构与算法" },
+    { "en": "Machine Learning", "zh-CN": "机器学习" },
+    { "en": "Big Data Technologies", "zh-CN": "大数据技术" },
+    { "en": "Statistical Analysis", "zh-CN": "统计分析" },
+    { "en": "Database Systems", "zh-CN": "数据库系统" },
+    { "en": "Data Mining", "zh-CN": "数据挖掘" }
+  ],
+  "downloads": {
+    "resume": "assets/pdf/Coraed_Resume_CN.pdf",
+    "transcript": "assets/pdf/Coraed_Transcript.pdf"
+  },
+  "photo": "assets/img/coraed.jpg"
+}
+
+

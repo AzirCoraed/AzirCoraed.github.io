@@ -70,35 +70,25 @@ tabs.forEach(tab => {
 })
 
 /*==================== CERTIFICATES FILTER ====================*/
-const certificatesFilters = document.querySelectorAll('.certificates__filter');
-const certificatesItems = document.querySelectorAll('.certificates__item');
-
-function filterCertificates(filterValue) {
-  certificatesItems.forEach(item => {
-    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-      item.style.display = 'block';
-      item.classList.remove('hide');
-    } else {
-      item.classList.add('hide');
-      setTimeout(() => {
-        item.style.display = 'none';
-      }, 300);
-    }
-  });
-}
-
-certificatesFilters.forEach(filter => {
-  filter.addEventListener('click', () => {
-    const activeFilter = document.querySelector('.certificates__filter.active-filter');
-    if (activeFilter) {
-      activeFilter.classList.remove('active-filter');
-    }
-    filter.classList.add('active-filter');
-    
-    const filterValue = filter.getAttribute('data-filter');
-    filterCertificates(filterValue);
-  });
-});
+// Certificates will be rendered from data layer later (prepare for CRUD),
+// keep filter UI logic minimal and data-driven.
+(() => {
+  const filters = document.querySelectorAll('.certificates__filter');
+  const items = document.querySelectorAll('.certificates__item');
+  if (!filters.length || !items.length) return;
+  const apply = (value) => {
+    items.forEach(item => {
+      const matched = value === 'all' || item.getAttribute('data-category') === value;
+      item.style.display = matched ? 'block' : 'none';
+      item.classList.toggle('hide', !matched);
+    });
+  };
+  filters.forEach(btn => btn.addEventListener('click', () => {
+    document.querySelector('.certificates__filter.active-filter')?.classList.remove('active-filter');
+    btn.classList.add('active-filter');
+    apply(btn.getAttribute('data-filter'));
+  }));
+})();
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')

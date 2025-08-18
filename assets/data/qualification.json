@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "title": {"en": "Data Science and Big Data Technology", "zh-CN": "数据科学与大数据技术"},
+      "subtitle": {"en": "Dongguan University of Technology", "zh-CN": "东莞理工学院"},
+      "period": "2020.9-2024.6"
+    }
+  ],
+  "work": [
+    {
+      "title": {"en": "Data Analytics", "zh-CN": "数据分析"},
+      "subtitle": {"en": "GUANGZHOU", "zh-CN": "广州"},
+      "period": "2024.2-2024.4"
+    }
+  ]
+}
+
+
