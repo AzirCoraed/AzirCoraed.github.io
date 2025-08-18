@@ -39,7 +39,7 @@ class PortfolioManager {
 
         const filteredProjects = filter === 'all' 
             ? this.projects 
-            : this.projects.filter(project => project.category.toLowerCase().replace(' ', '-') === filter);
+            : this.projects.filter(project => this.normalizeCategoryToFilter(project.category) === filter);
         
         this.container.innerHTML = filteredProjects.map(project => this.createProjectCard(project)).join('');
     }
@@ -54,6 +54,14 @@ class PortfolioManager {
         }
 
         const isEnglish = currentLang === 'en';
+        const filterKey = this.normalizeCategoryToFilter(project.category);
+        const reverseCategoryMap = {
+            'deep-learning': 'Deep Learning',
+            'machine-learning': 'Machine Learning',
+            'data-analysis': 'Data Analysis'
+        };
+        const categoryDisplayKey = reverseCategoryMap[filterKey];
+        const categoryLabel = (this.translations.portfolio?.categories?.[categoryDisplayKey]) || project.category;
 
         // 修复角色显示
         const roleLabel = isEnglish ? 'Role' : i18n.labels.role;
@@ -95,7 +103,7 @@ class PortfolioManager {
 
                     <div class="portfolio__category">
                         <i class="uil uil-tag-alt"></i>
-                        <span>${project.category}</span>
+                        <span>${categoryLabel}</span>
                     </div>
 
                     <div class="portfolio__tech">
@@ -170,6 +178,18 @@ class PortfolioManager {
                 }
             });
         }
+    }
+
+    // 将项目类别映射到过滤键，保证筛选一致
+    normalizeCategoryToFilter(category) {
+        if (!category) return 'data-analysis';
+        const key = String(category).trim().toLowerCase();
+        if (key === 'deep learning' || key === 'deep-learning') return 'deep-learning';
+        if (key === 'machine learning' || key === 'machine-learning') return 'machine-learning';
+        if (key === 'data analysis' || key === 'data-analysis' || key === 'data analytics') return 'data-analysis';
+        // 兼容非标准类别
+        if (key === 'python') return 'data-analysis';
+        return 'data-analysis';
     }
 }
 
