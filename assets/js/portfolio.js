@@ -72,7 +72,7 @@ class PortfolioManager {
                     <img 
                         src="${project.image}" 
                         alt="${isEnglish ? project.title_en : project.title}" 
-                        onerror="this.src='assets/img/portfolio/default.jpg'"
+                        onerror="this.src='assets/img/portfolio1.jpg'"
                         loading="lazy"
                         class="portfolio__image ${project.image.endsWith('.gif') ? 'portfolio__image--gif' : ''}"
                     >
@@ -164,7 +164,7 @@ class PortfolioManager {
         if (i18n && i18n.filters) {
             this.filters.forEach(filter => {
                 const filterKey = filter.getAttribute('data-filter');
-                const translationKey = filterKey === 'all' ? 'all' : filterKey.replace('-', '_');
+                const translationKey = filterKey; // 保持与 JSON 一致的键（包含连字符）
                 if (i18n.filters[translationKey]) {
                     filter.textContent = i18n.filters[translationKey];
                 }

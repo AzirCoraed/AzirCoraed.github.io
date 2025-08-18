@@ -16,6 +16,9 @@ class ThemeManager {
         // 否则使用系统主题
         else if (this.prefersDark.matches) {
             document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            // 显式设置为 light，便于使用 [data-theme="light"] 的样式生效
+            document.documentElement.setAttribute('data-theme', 'light');
         }
     }
 

@@ -132,38 +132,7 @@ function scrollUp(){
   }
   window.addEventListener('scroll', scrollUp)
 
-/*==================== 深色主题切换 ====================*/
-const themeButton = document.getElementById('theme-button');
-const darkTheme = 'dark-theme';
-const iconTheme = 'uil-sun';
-
-// 从本地存储获取用户之前的主题选择
-const selectedTheme = localStorage.getItem('selected-theme');
-const selectedIcon = localStorage.getItem('selected-icon');
-
-// 获取当前主题状态
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
-
-// 如果用户之前选择过主题，则应用该主题
-if (selectedTheme) {
-    // 添加或移除深色主题类
-    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
-    // 更新图标
-    themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme);
-}
-
-// 主题切换按钮点击事件
-themeButton.addEventListener('click', () => {
-    // 切换深色主题类
-    document.body.classList.toggle(darkTheme);
-    // 切换图标
-    themeButton.classList.toggle(iconTheme);
-    
-    // 保存用户的选择到本地存储
-    localStorage.setItem('selected-theme', getCurrentTheme());
-    localStorage.setItem('selected-icon', getCurrentIcon());
-});
+/* 深色主题切换逻辑已统一至 assets/js/theme.js（基于 data-theme） */
 
 // 滚动显示动画
 const scrollReveal = () => {
@@ -195,11 +164,10 @@ const createScrollProgress = () => {
 
 // 初始化动画
 document.addEventListener('DOMContentLoaded', () => {
-    scrollReveal();
-    createScrollProgress();
-    
-    // 为需要动画的元素添加类
+    // 先为需要动画的元素添加类，再启动观察器，避免未被观察导致元素保持透明
     document.querySelectorAll('section').forEach(section => {
         section.classList.add('scroll-reveal');
     });
+    scrollReveal();
+    createScrollProgress();
 });
