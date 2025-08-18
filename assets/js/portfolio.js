@@ -177,22 +177,4 @@ class PortfolioManager {
 document.addEventListener('DOMContentLoaded', () => {
     const portfolioManager = new PortfolioManager();
     portfolioManager.listenToLanguageChange();
-    
-    fetch('assets/data/portfolio-projects.json')
-      .then(response => response.json())
-      .then(data => {
-        // 根据数据动态生成作品集内容
-        const container = document.querySelector('.portfolio__container');
-        data.forEach(project => {
-          const projectElement = document.createElement('div');
-          projectElement.classList.add('portfolio__item');
-          projectElement.innerHTML = `
-            <img src="${project.image}" alt="${project.title.en}" />
-            <h3>${project.title[currentLang]}</h3>
-            <p>${project.description[currentLang]}</p>
-            <a href="${project.link}" target="_blank">View Project</a>
-          `;
-          container.appendChild(projectElement);
-        });
-      });
 });

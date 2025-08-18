@@ -21,6 +21,17 @@
       "internships": "次实习经历"
     }
   },
+  "home__contact": "联系我",
+  "home__scroll-name": "向下滚动",
+  "download__cv": "下载简历",
+  "download__transcript": "下载成绩单",
+  "about__courses-title": "主修课程",
+  "course1": "数据结构与算法",
+  "course2": "机器学习",
+  "course3": "大数据技术",
+  "course4": "统计分析",
+  "course5": "数据库系统",
+  "course6": "数据挖掘",
   "portfolio": {
     "title": "项目经历",
     "subtitle": "最近的项目",
@@ -65,14 +76,37 @@
     }
   },
   "qualification": {
-    "title": "教育背景",
+    "title": "资质",
     "subtitle": "我的个人经历",
     "education": "教育经历",
     "work": "工作经历"
   },
-  "qualification__title": "教育背景",
+  "qualification__title": "资质",
   "qualification__subtitle": "我的个人经历",
   "about__info-name1": "年工作经验",
   "about__info-name2": "个完成项目",
-  "about__info-name3": "次实习经历"
+  "about__info-name3": "次实习经历",
+  "contact__title": "联系我",
+  "contact__subtitle": "保持联系",
+  "tel": "电话",
+  "tel__number": "+86 131 8905 0890",
+  "location": "位置",
+  "location__detail": "中国 · 广州",
+  "certificates__title": "证书与奖项",
+  "certificates__subtitle": "学术成就",
+  "certificates__filter-all": "全部",
+  "certificates__filter-competition": "竞赛奖项",
+  "certificates__filter-certification": "专业认证",
+  "math_modeling_2023__title": "2023年全国大学生数学建模竞赛广东省分赛三等奖",
+  "math_modeling_2023__details": "C题 蔬菜类商品的自动定价与补货决策",
+  "math_competition_2021__title": "2021年东莞理工学院数学竞赛（理工类）三等奖",
+  "math_competition_2021__details": "2021年暨第十三届全国大学生数学竞赛校内选拔赛获奖",
+  "math_modeling_2022__title": "2022年全国大学生数学建模竞赛广东省分赛三等奖",
+  "math_modeling_2022__details": "B题 无人机纯方位无源定位",
+  "math_competition_2023__title": "2023年东莞理工学院数学竞赛（理工类）二等奖",
+  "math_competition_2023__details": "东莞理工学院数学竞赛二等奖获得者",
+  "hcia__title": "华为HCIA大数据认证",
+  "hcia__details": "华为认证 ICT 初级工程师 - 大数据方向",
+  "hcip__title": "华为HCIP大数据开发认证",
+  "hcip__details": "华为认证 ICT 高级工程师 - 大数据开发方向"
 } 
