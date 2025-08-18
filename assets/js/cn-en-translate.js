@@ -58,29 +58,46 @@
     };
 
     function resolveTranslation(key) {
-        // 1) 直接平铺键
-        if (translations[key] != null) return translations[key];
-        // 2) 平铺键映射到嵌套
+        // 1) 优先使用平铺键到嵌套键的映射（避免与同名对象冲突，如 'portfolio'/'about'）
         const mapped = flatKeyMap[key];
         if (mapped) {
             const val = getByPath(translations, mapped);
-            if (val != null) return val;
+            if (typeof val === 'string') return val;
         }
-        // 3) 直接按点路径取嵌套
+        // 2) 支持点路径直接取嵌套
         if (key.includes('.')) {
             const val = getByPath(translations, key);
-            if (val != null) return val;
+            if (typeof val === 'string') return val;
         }
+        // 3) 仅当为字符串时才返回直接平铺键，防止返回对象导致跳过后续逻辑
+        const direct = translations[key];
+        if (typeof direct === 'string') return direct;
         return undefined;
     }
 
     function translatePage() {
+        // 翻译纯文本
         document.querySelectorAll('[i18n]').forEach(el => {
             const key = el.getAttribute('i18n');
             const text = resolveTranslation(key);
             if (typeof text === 'string') {
                 el.innerHTML = text;
             }
+        });
+
+        // 翻译占位符等属性
+        document.querySelectorAll('[data-i18n-attr]').forEach(el => {
+            // data-i18n-attr="placeholder:title" => 占位符使用 key 'title'
+            const spec = el.getAttribute('data-i18n-attr');
+            // 允许多个，用分号分隔，如 "placeholder:contact__me;title:contact__me"
+            spec.split(';').forEach(pair => {
+                const [attr, key] = pair.split(':').map(s => s && s.trim());
+                if (!attr || !key) return;
+                const text = resolveTranslation(key);
+                if (typeof text === 'string') {
+                    el.setAttribute(attr, text);
+                }
+            });
         });
     }
 

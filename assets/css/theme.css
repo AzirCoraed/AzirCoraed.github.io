@@ -6,6 +6,8 @@
     --first-color-alt: hsl(207, 55%, 40%);
     --first-color-lighter: hsl(207, 65%, 90%);
     --first-color-dark: hsl(207, 65%, 35%);
+    /* 一些需要 rgba() 的场景使用此 RGB 变量 */
+    --first-color-rgb: 33, 115, 185;
     
     /* 文本颜色 */
     --title-color: hsl(207, 12%, 15%);
@@ -31,6 +33,8 @@
     --first-color-alt: hsl(207, 55%, 55%);
     --first-color-lighter: hsl(207, 65%, 25%);
     --first-color-dark: hsl(207, 65%, 50%);
+    /* 与深色主题主色相匹配的 RGB 值 */
+    --first-color-rgb: 96, 170, 232;
     
     /* 文本颜色 - 提高可读性 */
     --title-color: hsl(207, 12%, 95%);
