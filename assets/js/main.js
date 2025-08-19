@@ -161,3 +161,38 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollReveal();
     createScrollProgress();
 });
+
+/*==================== ABOUT COUNTERS FROM DATAAPI ====================*/
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        if (!window.DataAPI || !window.DataAPI.getAbout) return;
+        const about = await window.DataAPI.getAbout();
+        if (!about || !Array.isArray(about.counters)) return;
+
+        const orderedKeys = ['experience', 'projects', 'internships'];
+        const values = new Map();
+        about.counters.forEach(item => {
+            if (item && item.key) {
+                values.set(item.key, `${item.value}${item.suffix || ''}`);
+            }
+        });
+
+        const titleEls = document.querySelectorAll('.about__info .about__info-title');
+        titleEls.forEach((el, idx) => {
+            const key = orderedKeys[idx];
+            if (!key) return;
+            const text = values.get(key);
+            if (text) el.textContent = text;
+        });
+
+        // 同步下载链接（若数据中有变更）
+        if (about.downloads) {
+            const resumeLink = document.querySelector('a[href*="Coraed_Resume"]');
+            if (resumeLink && about.downloads.resume) resumeLink.setAttribute('href', about.downloads.resume);
+            const transcriptLink = document.querySelector('a[href*="Coraed_Transcript"]');
+            if (transcriptLink && about.downloads.transcript) transcriptLink.setAttribute('href', about.downloads.transcript);
+        }
+    } catch (_) {
+        // 静默失败，保持现有静态文案
+    }
+});
