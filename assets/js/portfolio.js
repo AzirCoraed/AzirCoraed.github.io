@@ -16,10 +16,14 @@ class PortfolioManager {
             
             const translationResponse = await fetch(`assets/i18n/${langPath}/common.json`);
             this.translations = await translationResponse.json();
-            
-            const response = await fetch('assets/data/portfolio.json');
-            const data = await response.json();
-            this.projects = data.projects;
+
+            // 通过统一的数据访问层获取作品集，优先 API，回退本地 JSON
+            const projects = await (window.DataAPI && window.DataAPI.getPortfolio ? window.DataAPI.getPortfolio() : (async () => {
+                const res = await fetch('assets/data/portfolio.json');
+                const data = await res.json();
+                return data.projects || [];
+            })());
+            this.projects = projects;
             
             // 更新过滤器文本
             this.updateFilterLabels();
