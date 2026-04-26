@@ -1,6 +1,78 @@
 {
   "projects": [
     {
+      "id": 101,
+      "title": "企业自动化办公智能体",
+      "title_en": "Enterprise Office Automation Agent",
+      "category": "machine-learning",
+      "role": "AI 应用工程师",
+      "role_en": "AI Application Engineer",
+      "period": "2025.11 - 2026.02",
+      "description": "面向企业高重复性办公场景，基于 Python 构建自动化脚本能力，并通过 LLM Function Calling 与 LangChain 实现技能注册、调度与编排，形成可用的企业内部办公智能体。支持自然语言发起任务，自动规划路径并串联数据清洗、报表生成、网页填报、格式转换等流程，仅在关键节点交由人工复核。",
+      "description_en": "Built an enterprise office automation agent for repetitive office workflows. Implemented reusable automation skills with Python and orchestrated them via LLM function calling and LangChain, enabling natural-language task execution across data cleaning, report generation, web form filling, and format conversion with human-in-the-loop verification at key steps.",
+      "achievements": [
+        "封装并沉淀 20+ 可复用技能模块，覆盖文档处理、数据处理、浏览器操作、鼠标键盘模拟等高频场景",
+        "通过技能注册与调度编排，解决脚本零散、EXE 冗杂、非技术人员使用门槛高的问题",
+        "智能体上线后，团队日均减少重复工时 3 小时以上，办公流程标准化率提升 90%，错误率显著降低"
+      ],
+      "achievements_en": [
+        "Delivered 20+ reusable skill modules covering document processing, data processing, browser automation, and input simulation",
+        "Introduced skill registration and orchestration to replace scattered scripts and reduce operational complexity for non-technical users",
+        "Reduced repetitive work by 3+ hours per day and improved process standardization to ~90% with fewer errors"
+      ],
+      "image": "assets/img/portfolio2.jpg",
+      "github": "https://github.com/AzirCoraed",
+      "tech_stack": ["Python", "Playwright", "PyAutoGUI", "Pandas", "python-docx", "OpenPyXL", "Ollama", "LangChain", "Function Calling", "Chroma", "LLM", "Dify"]
+    },
+    {
+      "id": 102,
+      "title": "基于 RAG 的会计准则智能问答系统",
+      "title_en": "Accounting Standards Q&A System (RAG)",
+      "category": "machine-learning",
+      "role": "AI 应用工程师",
+      "role_en": "AI Application Engineer",
+      "period": "2025.09 - 2025.10",
+      "description": "针对企业会计准则与财务规范类文本，构建基于 RAG 的知识库问答系统：完成文档清洗与分段、向量化索引构建、检索与重排序策略，并在 LangChain 流程中实现“检索 → 上下文增强 → LLM 生成”。目标是降低幻觉并提升专业问题的可溯源与可靠性。",
+      "description_en": "Built a RAG-based knowledge base Q&A system for accounting standards and finance policy documents. Implemented document cleaning/chunking, embedding indexing, retrieval and ranking, and an end-to-end LangChain pipeline (retrieve → augment context → generate) to reduce hallucinations and improve answer reliability with source-grounded responses.",
+      "achievements": [
+        "完成百余页专业文档向量化与索引构建，形成可用的垂直领域知识库",
+        "针对长文本与专业术语优化分块策略与检索逻辑，提升召回与回答稳定性",
+        "实现可溯源、合规化问答：回答严格依据官方条文，不编造规则"
+      ],
+      "achievements_en": [
+        "Vectorized and indexed 100+ pages of domain documents to build a usable vertical knowledge base",
+        "Optimized chunking and retrieval logic for long texts and specialized terms to improve recall and stability",
+        "Enabled source-grounded and compliant Q&A by generating answers strictly based on official clauses"
+      ],
+      "image": "assets/img/portfolio3.jpg",
+      "github": "https://github.com/AzirCoraed",
+      "tech_stack": ["Python", "LangChain", "Chroma", "BM25", "Embedding", "RAG", "LLM"]
+    },
+    {
+      "id": 103,
+      "title": "数据报告样本模板生成器（脚本增效流程自动化）",
+      "title_en": "Data Report Template Generator (Automation Pipeline)",
+      "category": "data-analysis",
+      "role": "Python 工程师",
+      "role_en": "Python Engineer",
+      "period": "2025.02 - 2025.03",
+      "description": "通过自动化脚本实现 LaTeX 与 Word 双格式的数据报告样本模板快速生成，解决人工设计多格式报告模板耗时、格式易乱、兼容性差的问题。基于模板引擎与样式控制，将标题层级、目录结构、表格/图表占位区等模块参数化，实现一键生成标准化样本。",
+      "description_en": "Developed an automation pipeline to generate standardized data report templates in both LaTeX and Word formats, reducing manual design time and improving formatting consistency. Implemented parameterized template structures (sections, TOC, tables, charts) with robust styling control for one-click generation.",
+      "achievements": [
+        "将多格式模板设计周期从平均 12 小时缩短至 15 分钟以内",
+        "覆盖企业常用 5 类报告场景，Word 样式统一率达 100%",
+        "提升 LaTeX 公式排版与引用的标准化程度，显著降低格式处理重复劳动"
+      ],
+      "achievements_en": [
+        "Reduced multi-format template design time from ~12 hours to under 15 minutes",
+        "Covered 5 common report scenarios with consistent Word styling",
+        "Standardized LaTeX math typesetting and references, reducing repeated formatting work"
+      ],
+      "image": "assets/img/portfolio1.jpg",
+      "github": "https://github.com/AzirCoraed",
+      "tech_stack": ["Python", "Pandas", "Jinja2", "python-docx", "OpenPyXL", "PyLaTeX", "Matplotlib"]
+    },
+    {
       "id": 1,
       "title": "基于SRCNN的图像增强技术研究",
       "title_en": "Deep Optimization and Application Expansion of Image Enhancement Technology Based on SRCNN",

@@ -8,9 +8,14 @@
   ],
   "work": [
     {
-      "title": {"en": "Data Analytics", "zh-CN": "数据分析"},
-      "subtitle": {"en": "GUANGZHOU", "zh-CN": "广州"},
-      "period": "2024.2-2024.4"
+      "title": {"en": "Data Analyst", "zh-CN": "数据分析师"},
+      "subtitle": {"en": "Guangzhou Quanlong Information Consulting Co., Ltd.", "zh-CN": "广州全隆信息咨询有限公司"},
+      "period": "2025.09-2026.04"
+    },
+    {
+      "title": {"en": "Data Statistics Intern", "zh-CN": "数据统计实习生"},
+      "subtitle": {"en": "Guangzhou Statistician Firm", "zh-CN": "广州统计师事务所"},
+      "period": "2024.02-2024.04"
     }
   ]
 }

@@ -52,22 +52,21 @@ const skillsContent = document.getElementsByClassName('skills__content'),
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 
-tabs.forEach(tab => {
+for (let i = 0; i < tabs.length; i++) {
+  const tab = tabs[i]
   tab.addEventListener('click', () => {
-    console.log('click disparado')
     const target = document.querySelector(tab.dataset.target)
-
-    tabContents.forEach(tabContent => {
-      tabContent.classList.remove('qualification__active')
-    })
+    for (let j = 0; j < tabContents.length; j++) {
+      tabContents[j].classList.remove('qualification__active')
+    }
     target.classList.add('qualification__active')
 
-    tabs.forEach(tab => {
-      tab.classList.remove('qualification__active')
-    })
+    for (let k = 0; k < tabs.length; k++) {
+      tabs[k].classList.remove('qualification__active')
+    }
     tab.classList.add('qualification__active')
   })
-})
+}
 
 /*==================== CERTIFICATES FILTER ====================*/
 // Certificates will be rendered from data layer later (prepare for CRUD),

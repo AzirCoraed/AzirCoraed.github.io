@@ -1,12 +1,12 @@
 {
   "bio": {
-    "en": "Graduate in Data Science and Big Data Technology with strong foundations in statistics and ML. Proficient with Python, SQL and data tooling.",
-    "zh-CN": "数据科学与大数据技术专业毕业生，具备扎实的统计分析和机器学习基础。熟练使用 Python、SQL 等工具开发数据解决方案。"
+    "en": "AI application engineer with 2 years of experience. Focused on automation, RAG, and building reliable AI-powered workflows with Python and modern tooling.",
+    "zh-CN": "2年工作经验的 AI 应用工程师，聚焦自动化、RAG 以及 AI 工作流落地，擅长用 Python 与各类工具快速搭建可用、可靠的业务系统。"
   },
   "counters": [
-    { "key": "experience", "value": 1, "suffix": "+" },
-    { "key": "projects", "value": 8, "suffix": "+" },
-    { "key": "internships", "value": 2, "suffix": "+" }
+    { "key": "experience", "value": 2, "suffix": "+" },
+    { "key": "projects", "value": 12, "suffix": "+" },
+    { "key": "internships", "value": 1, "suffix": "+" }
   ],
   "courses": [
     { "en": "Data Structures and Algorithms", "zh-CN": "数据结构与算法" },

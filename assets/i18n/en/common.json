@@ -1,4 +1,6 @@
 {
+  "education": "Education",
+  "work": "Work",
   "nav": {
     "home": "Home",
     "about": "About",
@@ -8,17 +10,17 @@
   },
   "home": {
     "title": "Hi, I'm Coraed",
-    "subtitle": "Data Scientist & Big Data Engineer",
-    "description": "A data scientist focused on machine learning and big data analytics. Skilled in applying data technologies to solve real-world problems."
+    "subtitle": "AI Application Engineer",
+    "description": "AI application engineer focused on automation, RAG, and building reliable AI-powered workflows with Python and modern tooling."
   },
   "about": {
     "title": "About Me",
     "subtitle": "My Introduction",
-    "description": "Data Science and Big Data Technology graduate with solid foundation in statistical analysis and machine learning. Proficient in developing data solutions using Python, SQL and related tools.",
+    "description": "AI application engineer with 2 years of experience. Experienced in automation scripting, document/report generation pipelines, and RAG-based Q&A systems.",
     "info": {
       "experience": "Years of experience",
-      "projects": "Completed projects",
-      "internships": "Internships completed"
+      "projects": "Projects",
+      "internships": "Internships"
     }
   },
   "home__contact": "Contact Me",
@@ -83,11 +85,16 @@
   },
   "qualification__title": "Qualification",
   "qualification__subtitle": "My personal journey",
+  "qualification4__title": "Data Analyst",
+  "qualification4__subtitle": "Guangzhou Quanlong Information Consulting Co., Ltd.",
+  "qualification5__title": "Data Statistics Intern",
+  "qualification5__subtitle": "Guangzhou Statistician Firm",
   "about__info-name1": "Years of experience",
-  "about__info-name2": "Completed projects",
-  "about__info-name3": "Internships completed",
+  "about__info-name2": "Projects",
+  "about__info-name3": "Internships",
   "contact__title": "Contact me",
   "contact__subtitle": "Get in touch",
+  "account": "Account",
   "tel": "Call me",
   "tel__number": "+86 131 8905 0890",
   "location": "Location",

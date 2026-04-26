@@ -1,4 +1,6 @@
 {
+  "education": "教育经历",
+  "work": "工作经历",
   "nav": {
     "home": "首页",
     "about": "关于",
@@ -8,17 +10,17 @@
   },
   "home": {
     "title": "你好，我是 Coraed",
-    "subtitle": "数据科学家 & 大数据工程师",
-    "description": "专注于机器学习和大数据分析的数据科学研究者。擅长运用各类数据技术解决实际问题。"
+    "subtitle": "AI 应用工程师",
+    "description": "聚焦自动化、RAG 与 AI 工作流落地，擅长用 Python 与各类工具快速搭建可用、可靠的业务系统。"
   },
   "about": {
     "title": "关于我",
     "subtitle": "我的介绍",
-    "description": "数据科学与大数据技术专业毕业生，具备扎实的统计分析和机器学习基础。熟练使用Python、SQL等工具开发数据解决方案。",
+    "description": "2年工作经验的 AI 应用工程师，具备自动化脚本开发、文档/报告流水线生成、RAG 知识库问答等落地经验。",
     "info": {
       "experience": "年工作经验",
-      "projects": "个完成项目",
-      "internships": "次实习经历"
+      "projects": "个项目",
+      "internships": "段实习经历"
     }
   },
   "home__contact": "联系我",
@@ -83,11 +85,16 @@
   },
   "qualification__title": "资质",
   "qualification__subtitle": "我的个人经历",
+  "qualification4__title": "数据分析师",
+  "qualification4__subtitle": "广州全隆信息咨询有限公司",
+  "qualification5__title": "数据统计实习生",
+  "qualification5__subtitle": "广州统计师事务所",
   "about__info-name1": "年工作经验",
-  "about__info-name2": "个完成项目",
-  "about__info-name3": "次实习经历",
+  "about__info-name2": "个项目",
+  "about__info-name3": "段实习经历",
   "contact__title": "联系我",
   "contact__subtitle": "保持联系",
+  "account": "账号",
   "tel": "电话",
   "tel__number": "+86 131 8905 0890",
   "location": "位置",

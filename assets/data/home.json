@@ -5,12 +5,12 @@
       "zh-CN": "你好，我是 Coraed"
     },
     "subtitle": {
-      "en": "Data Scientist & Big Data Engineer",
-      "zh-CN": "数据科学家 & 大数据工程师"
+      "en": "AI Application Engineer",
+      "zh-CN": "AI 应用工程师"
     },
     "description": {
-      "en": "A data scientist focused on machine learning and big data analytics. Skilled in applying data technologies to solve real-world problems.",
-      "zh-CN": "专注于机器学习和大数据分析的数据科学研究者。擅长运用数据技术解决实际问题。"
+      "en": "AI application engineer focused on automation, RAG, and building reliable AI-powered workflows with Python and modern tooling.",
+      "zh-CN": "聚焦自动化、RAG 与 AI 工作流落地，擅长用 Python 与各类工具快速搭建可用、可靠的业务系统。"
     },
     "cta": {
       "en": "Contact Me",
