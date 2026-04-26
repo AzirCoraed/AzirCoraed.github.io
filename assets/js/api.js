@@ -11,9 +11,10 @@
     async function request(primaryUrl, fallbackUrl) {
         const cacheKey = primaryUrl || fallbackUrl;
         if (cache.has(cacheKey)) return cache.get(cacheKey);
+        const fetchOptions = { credentials: 'omit', cache: 'no-store' };
         try {
             if (primaryUrl) {
-                const res = await fetch(primaryUrl, { credentials: 'omit' });
+                const res = await fetch(primaryUrl, fetchOptions);
                 if (res.ok) {
                     const data = await res.json();
                     cache.set(cacheKey, data);
@@ -23,7 +24,8 @@
         } catch (_) {
             // ignore and try fallback
         }
-        const res = await fetch(fallbackUrl, { credentials: 'omit' });
+        const res = await fetch(fallbackUrl, fetchOptions);
+        if (!res.ok) throw new Error(`DataAPI fallback load failed: ${res.status}`);
         const data = await res.json();
         cache.set(cacheKey, data);
         return data;
